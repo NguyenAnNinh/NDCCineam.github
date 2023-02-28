@@ -1,0 +1,122 @@
+.Header {
+
+    // NAVBAR START (NDCg)
+    .mainSize {
+        width: 1200px;
+        margin: auto;
+        box-sizing: border-box;
+
+        .containerHearder {
+            display: flex;
+
+            .logo {
+                margin-top: 20px;
+            }
+
+            .menuInfo {
+                width: 100%;
+                margin-left: 20px;
+
+                .buttonTop {
+
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 75px;
+                        padding-bottom: -20px;
+                        border-bottom: 2px solid #ff009e;
+
+                        .buttonRow {
+                            width: 100%;
+                            padding-top: 10px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .tagMiddle {
+                                display: flex;
+                                align-items: center;
+
+                                .input-menu {
+
+
+                                    input {
+                                        padding: 10px 30px;
+                                        border-radius: 50px;
+                                        border: 0;
+                                    }
+
+                                    input[type="text"]::placeholder {
+                                        text-transform: none;
+                                    }
+
+                                }
+
+                                .language {
+                                    margin-left: 30px;
+                                    width: 36px;
+
+                                    img {
+                                        border-radius: 50px;
+                                    }
+                                }
+
+
+                            }
+                            .span {
+                                color: white;
+                                text-align: center;
+                            }
+        
+                            .btnsignout {
+                                margin-left: 10px ;
+                                border: none;
+                                padding: 5px;
+                                border-radius: 100%;
+                            }
+
+                        }
+                    }
+
+
+                    .navbav {
+                        height: 60px;
+
+                        .nav {
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            position: relative;
+
+                            li {
+                                list-style: none;
+
+                                a {
+                                    padding: 20px 0px 20px 0px;
+                                    display: inline-block;
+                                    color: white;
+                                    padding: 0px 15px;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    position: relative;
+                                    z-index: 1;
+                                    text-align: center;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    // NAVBAR END (NDCg)
+
+
+
+}

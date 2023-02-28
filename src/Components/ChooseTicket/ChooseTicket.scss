@@ -1,0 +1,214 @@
+.mainsizedetail {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .sideleft {
+        .ticketandcombo {
+            margin: auto;
+            background: #eb1689;
+            padding: 10px;
+            width: 900px;
+
+
+
+            h1 {
+                margin-bottom: 15px;
+                color: white;
+                font-size: 30px;
+            }
+
+            .chooseticket {
+                background: white;
+                width: 100%;
+
+                tr {
+                    .th1 {
+                        width: 55%;
+                    }
+
+                    .th2 {
+                        width: 15%;
+                    }
+
+                    .td2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &>div {
+                            display: flex;
+                        }
+                    }
+
+                    .td1 {
+
+                        margin: auto;
+
+                        &>div {
+                            display: flex;
+
+                            button{
+                                border-radius: 100%;
+                                border: none;
+                                padding: 2px;
+                            }
+
+                            input {
+                                margin: auto 5px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .tr {
+                    td {
+                        color: pink;
+                    }
+                }
+
+                td {
+                    padding: 10px;
+                }
+
+                .td {
+                    text-align: center;
+                }
+
+                th {
+                    background: brown;
+                }
+
+
+
+            }
+        }
+
+        .choosecombo {
+            background: white;
+            width: 100%;
+
+
+            tr {
+                .th1 {
+                    width: 55%;
+                }
+
+                .th2 {
+                    width: 15%;
+                }
+
+                .td1 {
+                    display: flex;
+
+                    img {
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                    }
+
+                    small {
+                        font-size: 12px;
+                    }
+                }
+
+                .td2 {
+                    margin: auto;
+
+                    &>div {
+                        display: flex;
+
+                        button{
+                            border-radius: 100%;
+                            border: none;
+                            padding: 2px;
+                        }
+
+                        input {
+                            margin: auto 5px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .tr {
+                td {
+                    color: pink;
+                }
+            }
+
+            td {
+                padding: 10px;
+            }
+
+            .td {
+                text-align: center;
+            }
+
+            th {
+                background: brown;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+        }
+
+        .sum{
+            color: red;
+        }
+    }
+}
+
+
+
+.sideright {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 380px;
+    
+    small{
+color: pink;
+    margin-bottom: 4px;
+    }
+    h4 {
+        font-weight: 200;
+        margin-bottom: 15px;
+    }
+
+    img {
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        margin-top: 15px;
+
+        button {
+            padding: 8px 15px;
+            background-color: rgb(230, 172, 182);
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+    
+    .sum{
+        color: red;
+    }
+
+    .btn button:hover {
+        background: #eb1689;
+    }
+}

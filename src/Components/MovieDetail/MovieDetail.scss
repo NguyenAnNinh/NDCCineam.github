@@ -1,0 +1,111 @@
+.infoMovie {
+    width: 1200px;
+    margin: 30px auto;
+    position: relative;
+    box-sizing: border-box;
+
+    .trailer {
+        max-width: 1200px;
+
+        img {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 100%;
+            height: 550px;
+            opacity: 0.7;
+        }
+    }
+
+    .film {
+        display: flex;
+        position: absolute;
+        top: 400px;
+
+        .imgFilm {
+            padding-left: 20px;
+        }
+
+        .infoFilm {
+            margin: 50px 0px 0px 20px;
+            font-size: 16px;
+
+            .detail-top {
+
+
+                h2 {
+                    color: #ea3b92;
+                    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+                    font-size: 28px;
+                }
+
+                h3 {
+                    color: white;
+                    margin: 10px 0px 45px 0px;
+                    font-size: 24px;
+
+                }
+            }
+
+            .detail-bt {
+                padding-top: 30px;
+                height: 300px;
+
+                p {
+                    color: #ea3b92;
+                    padding: 5px 0px;
+                }
+
+                span {
+                    color: white;
+                }
+            }
+
+
+
+        }
+
+    }
+
+    .content {
+        margin-top: 300px;
+        height: 100vh;
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 20px;
+        box-sizing: border-box;
+
+        h3{
+            background-color:#ea3b92;
+            color: white;
+            padding: 6px 20px;
+            margin-bottom: 10px;
+        }
+        .boxDate {
+            margin-bottom: 10px;
+
+            h4 {
+                margin-bottom: 10px;
+            }
+
+            .infoBox {
+                display: flex;
+                flex-wrap: wrap;
+                span {
+                    background-color: #eb1689;
+                    color: white;
+                    border: 1px solid #f29438;
+                    padding: 5px 10px;
+                    font-weight: 500;
+                    margin: 8px;
+                    border-radius: 15px;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
